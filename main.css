@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1500px;
+    height: 600px;
+    /* border: 1px solid #ddd; */
+    margin: 50px auto;
+}
+.header{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    background-color: #2eca7e;
+}
+.header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 7%;
+    top: 7%;
+}
+.header h2{
+    color: #fff;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+    text-transform: capitalize;
+}
+.header .job{
+    position: absolute;
+        left: 15.3%;
+        top: 55%;
+        color: #fff;
+        text-transform: capitalize;
+}
+.header .follow{
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.header .social{
+width: 35%;
+    height: 30%;
+    /* border: 1px solid #000; */
+    position: absolute;
+    left: 64%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.left{
+    width: 15%;
+        height: 85%;
+        /* border: 1px solid orange; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid rgba(200, 200, 200, 15%);
+}
+.left>div{
+    width: 100%;
+    height: calc(85% / 7);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    text-transform: capitalize;
+}
+.left .one{
+    color: #2eca7e;
+}
+.left .one::after{
+    content: "";
+        width: 15px;
+        height: 2px;
+        background-color: #2eca7e;
+        position: absolute;
+        left: 5.5%;
+        top: 19%;
+}
+.mid{
+    width: 45%;
+        height: 52%;
+        position: absolute;
+        left: 20%;
+        top: 16%;
+}
+.mid img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.right{
+    width: 25%;
+        height: 55%;
+        position: absolute;
+        left: 70%;
+        top: 15%;
+}
+.right .one{
+position: absolute;
+    left: 20%;
+    top: 5%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 23px;
+}
+.right .one::after{
+    content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #2eca7e;
+        position: absolute;
+        left: 0;
+        top: 110%;
+}
+.right .one::before{
+    content: "";
+        width: 45%;
+        height: 10px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        position: absolute;
+        left: 0;
+        top: 98%;
+        background-color: #2eca7e;
+}
+.right .two{
+    width: 45%;
+        height: 45%;
+        position: absolute;
+        left: 21%;
+        top: 17%;
+}
+.bold{
+    font-weight: bold;
+}
+.right .three{
+    width: 50%;
+        height: 10%;
+        position: absolute;
+        left: 21%;
+        top: 45%;
+}
+.right .four{
+    width: 60%;
+        height: 10%;
+        position: absolute;
+        left: 21%;
+        top: 55%;
+}
+.right .five{
+        width: 80%;
+            height: 10%;
+            position: absolute;
+            left: 21%;
+            top: 65%;
+}
+.right .six{
+            width: 80%;
+                height: 10%;
+                position: absolute;
+                left: 21%;
+                top: 75%;
+}
+.right .seven{
+    width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 20%;
+        top: 85%;
+        background-color: #2eca7e;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 10px;
+        font-size: 17px;
+}
